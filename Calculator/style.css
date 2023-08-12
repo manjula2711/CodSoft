@@ -1,0 +1,71 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    position: relative;
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    background:linear-gradient(180deg,black,rgb(180, 180, 233));
+    height: 380px;
+    width: 300px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.grid-items{
+    display:grid;
+    padding-top: 10px;
+    column-gap: 3px;
+    row-gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(4,70px);
+    grid-template-rows: repeat(6,55px);
+    font-size: 25px;
+}
+.display{
+    margin-top: 6px;
+    position: relative;
+    width: 290px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+#input{
+  position: absolute;
+  width: 98%;
+  height: 98%;
+  background: transparent;
+  color: aliceblue;
+  text-align: right;
+  font-size: 25px;
+  border-radius: 8px;
+}
+ 
+button{
+    cursor: pointer;
+    background: transparent;
+    font-size: 25px;
+    color:black;
+    font-style: bolder;
+}
+button:hover{
+    color: aliceblue;
+}
+
+#equal{
+   background-color:rgb(109, 245, 245);
+   box-shadow: 1px 1px 6px white;
+}
+.operator,#delete{
+    color:aqua;
+}
