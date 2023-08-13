@@ -205,7 +205,7 @@ h5 span{
 }
 .column1{
     border:1px solid white;
-    display: grid;
+/*     display: grid; */
     justify-content: center;
     text-align: left;
     height:30vmax;
